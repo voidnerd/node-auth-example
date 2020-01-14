@@ -1,8 +1,9 @@
 # node-auth-example
 Article at [url coming soon]
 
-Usage
+
+## Usage
 - clone this repository
 - cd [project-directory]
 - npm install
-- npm start
+- npm start  

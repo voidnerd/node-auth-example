@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +12,10 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "indicative": "^7.4.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.7"
+    "mongoose": "^5.8.7",
+    "morgan": "^1.9.1",
+    "parse-error": "^0.2.0"
   }
 }
