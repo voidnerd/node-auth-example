@@ -27,10 +27,13 @@ exports.register = async (req, res) => {
 
     } catch (err) {
 
-        //
+        //return error if user unique field already exists
         if(err.name === 'MongoError' && err.code === 11000) {
             field = Object.keys(err.keyValue)[0]
-            return res.status(422).json({message: `${field} already exists!`, field: field})
+            const response = {
+                message:  `${field} already exists!`, field:  field
+            }
+            return  res.status(422).json(response)
     
         }
 
@@ -54,16 +57,18 @@ exports.login = async (req, res) => {
     try {
         const user = await User.findOne({email: req.body.email})
 
+        if(!user) throw new Error("Invalid Email or Password")
+
         if(!user.validPassword(req.body.password) ) {
             throw new Error("Invalid Email or Password")
         }
 
         const token = user.getJWT();
 
-        return res.status(201).json({data: { user, token }});
+        return res.status(200).json({data: { user, token }});
 
     } catch (err) {
         console.log(err)
-        if(err) return res.status(401).json({message: err})
+        if(err) return res.status(401).json({message: err.message})
     }
 }
