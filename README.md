@@ -11,9 +11,7 @@ Article at https://ndiecodes.com/posts/build-a-nodejs-restful-api-with-express-a
 
 ### How do I thank you?
 
-[
-<img src="https://res.cloudinary.com/iamndie/image/upload/v1578986171/patreon-button_srjo0f.jpg" height="50" width="250">
-](https://www.patreon.com/ndiecodes)
+Suprise Me :).
 
 ### Licensing
 

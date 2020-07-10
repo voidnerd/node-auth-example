@@ -8,6 +8,11 @@ const controllers = require('./controllers');
 const middleware = require('./middleware')
 
 /* Define all your routes*/
+
+router.get("/", function(req, res) {
+    return res.json({message: "Index Route of Public API"});
+})
+
 router.post('/register', controllers.auth.register)
 
 router.post('/login', controllers.auth.login)
