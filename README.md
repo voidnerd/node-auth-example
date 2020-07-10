@@ -11,7 +11,7 @@ Article at https://ndiecodes.com/posts/build-a-nodejs-restful-api-with-express-a
 
 ### How do I thank you?
 
-Suprise Me :).
+Surprise Me :).
 
 ### Licensing
 
