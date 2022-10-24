@@ -1,5 +1,5 @@
 # node-auth-example
-Article at https://ndiecodes.com/posts/build-a-nodejs-restful-api-with-express-and-mongodb
+Article at https://voidnerd.com/posts/build-a-nodejs-restful-api-with-express-and-mongodb
 
 ### Usage
 - `git clone https://github.com/ndiecodes/node-auth-example.git node-api`
