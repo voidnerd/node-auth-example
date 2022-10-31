@@ -15,5 +15,5 @@ Surprise Me :).
 
 ### Licensing
 
-* Copyright © 2019  [ndiecodes](https://twitter.com/ndiecodes)
+* Copyright © 2019  [Void](https://twitter.com/voidnerdx)
 * Licensed under MIT
