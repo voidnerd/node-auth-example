@@ -14,7 +14,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "indicative": "^7.4.4",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.8.7",
     "morgan": "^1.9.1",
     "parse-error": "^0.2.0"
